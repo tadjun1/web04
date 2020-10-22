@@ -1,0 +1,14 @@
+@charset "utf-8";
+@font-face {
+	font-family: SeoulNamsan;
+	src: url('../font/SeoulNamsanM.ttf');
+	font-weight: normal;
+}
+@font-face {
+	font-family: SeoulHangangB;
+	src: url('../font/SeoulHangangM.ttf');
+	font-weight: normal;
+}
+
+body {font-family: 'SeoulNamsan', sans-serif;}
+.ko {font-family: 'SeoulHangang', serif;}
