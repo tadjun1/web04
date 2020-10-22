@@ -1,0 +1,15 @@
+$(function(){
+	$('#search').on('click',function(e){
+		e.preventDefault();
+		$('#search').addClass('on');
+	});
+	$('.close-btn').on('click',function(e){
+		e.preventDefault();
+		$('#search').removeClass('on');
+	});
+	$('.st1').find('article').hover(function(){
+		$(this).addClass('on');
+	},function(){
+		$(this).removeClass('on');
+	});
+});
