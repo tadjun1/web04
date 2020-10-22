@@ -335,13 +335,14 @@ nav input[id="tab02"]:checked ~ .two-nb {
 
 .vid {
 	position: absolute;
+	width: 100%;
 	top: 0;
 	left: 0;
 	z-index: -2;
 }
 
 .vid video {
-	max-width: 100%;
+	width: 100%;
 }
 
 .visual .p-fill {
